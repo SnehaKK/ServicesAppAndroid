@@ -80,17 +80,78 @@ public class SJSUDownloadService extends Service {
 
 		
 		
-		System.out.println("All PDF Files downloaded" + Urls.get(0));
+		System.out.println("All PDF Files downloaded");
 		return 1;
 	}
 
 	private int downloadImages(List locations){
+ArrayList<String> Urls = (ArrayList<String>) locations;
+		
+
+		//Now download the files present in the locations array list. 
+		//For example lets download this file in our SDCard
+		//String loc = "http://www.sjsu.edu/gradstudies/docs/thesis_guidelines.pdf";
+		
+		
+		
+		
+		//DownloadAsyncTask downloadTask = new DownloadAsyncTask();
+		
+	
+		
+		for(int i = 0; i < Urls.size(); i++) {
+		
+			String temp [] = Urls.get(i).split("/");
+			Log.i("SJSUDownloadSevice", "Downloading File " +  temp[temp.length-1]);
+			
+			
+		
+			    new DownloadAsyncTask().execute(Urls.get(i), temp[temp.length-1]);
+			
+		
+		
+		}
+		//downloadFile(loc,"thesis_guidelines.pdf");
+
+		
+	
+		
 		System.out.println("All image files downloaded");
 		return 1;
 	}
 	
 	private int downloadTextFiles(List locations){
-		System.out.println("All text files downloaded");
+ArrayList<String> Urls = (ArrayList<String>) locations;
+		
+
+		//Now download the files present in the locations array list. 
+		//For example lets download this file in our SDCard
+		//String loc = "http://www.sjsu.edu/gradstudies/docs/thesis_guidelines.pdf";
+		
+		
+		
+		
+		//DownloadAsyncTask downloadTask = new DownloadAsyncTask();
+		
+	
+		
+		for(int i = 0; i < Urls.size(); i++) {
+		
+			String temp [] = Urls.get(i).split("/");
+			Log.i("SJSUDownloadSevice", "Downloading File " +  temp[temp.length-1]);
+			
+			
+		
+			    new DownloadAsyncTask().execute(Urls.get(i), temp[temp.length-1]);
+			
+		
+		
+		}
+		//downloadFile(loc,"thesis_guidelines.pdf");
+
+		
+		
+		System.out.println("All Text Files downloaded");
 		return 1;
 	}
 	

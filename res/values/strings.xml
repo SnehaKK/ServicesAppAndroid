@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="banner_main">Services App</string>
+    <string name="banner_mainDesc">The purpose of the App is to study the role of Android System in creating and managing the lifecycle of   Bound and Local Services.</string>
+    <string name="button_pdfActivity">PDF Download Activity</string>
+    <string name="button_ImageActivity">Image Download Activity</string>
+    <string name="button_TextActivity">Text Download Activity</string>
+    <string name="button_Close">Close</string>
+    <string name="app_name">ServicesAppAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pdfdownload">PDF Download Activity</string>
+    <string name="banner_pdf">PDF Download Activity</string>
+    <string name="banner_desc">Please provide a list of five PDF files from SJSU that are to be downloaded! \n(Values here have been hardcoded.)</string>
+    <string name="text_pdf_file1">PDF1 File: </string>
+    <string name="text_pdf_file2">PDF2 File:</string>
+    <string name="text_pdf_file3">PDF3 File:</string>
+    <string name="text_pdf_file4">PDF4 File:</string>
+    <string name="text_pdf_file5">PDF5 File:</string>
+    <string name="loc_pdf_file1">thesis_guidelines.pdf</string>
+    <string name="loc_pdf_file2">CMPE295A_S06_Green1.pdf </string>
+    <string name="loc_pdf_file3">CoENG_CompEngineering_CloudComputing.pdf</string>
+    <string name="loc_pdf_file4">AeroBook.pdf (large file)</string>
+    <string name="loc_pdf_file5">Career-Center-EXPO-13-Final-Job-Fair-Publication-1vd6gzz.pdf </string>
+    <string name="btn_startDownload">Start Download</string>
+    <string name="title_activity_textdownload">Text Download Activity</string>
+    <string name="banner_text">Text File Download Activity</string>
+    <string name="banner_text_desc">Please provide a list of five Text files from SJSU that are to be downloaded! \n(Values here have been hardcoded.)</string>
+    <string name="text_text_file1">Text1 File: </string>
+    <string name="text_text_file2">Text2 File:</string>
+    <string name="text_text_file3">Text3 File:</string>
+    <string name="text_text_file4">Text4 File:</string>
+    <string name="text_text_file5">Text5 File:</string>
+    <string name="loc_text_file1">passwords.txt (Large file)</string>
+    <string name="loc_text_file2">redo_quiz1_answer.txt </string>
+    <string name="loc_text_file3">robots.txt</string>
+    <string name="loc_text_file4">lab11.txt</string>
+    <string name="loc_text_file5">CountSortOutput.txt </string>
+    <string name="title_activity_imagedownload">Image Download Activity</string>
+    <string name="banner_image">Image Download Activity</string>
+    <string name="banner_image_desc">Please provide a list of Image files from SJSU that are to be downloaded! \n(Values here have been hardcoded.)</string>
+    <string name="text_image_file1">Image1 File: </string>
+    <string name="text_image_file2">Image2 File:</string>
+    <string name="text_image_file3">Image3 File:</string>
+    <string name="loc_image_file1">tower-hall-closeup.jpg</string>
+    <string name="loc_image_file2">calender.jpg</string>
+    <string name="loc_image_file3">career-center-01.jpg</string>
+</resources>
